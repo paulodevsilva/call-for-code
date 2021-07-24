@@ -5,15 +5,20 @@
   padding: 0;
 }
 
-/* css from header */
+/* css from Header */
 
 
 .header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
   font-family: 'Roboto', sans-serif;
-  font-size: 19px;
-  line-height: 32px;
+  /* font-size: 19px; */
+  font-size: 1.3vw;
+  /* line-height: 32px; */
   width: 100%;
-  height: 50px;
+  /* height: 50px; */
+  height: 8vh;
   background-color: #17E7F4;
   display: flex;
   align-items: center;
@@ -23,49 +28,51 @@
 .nav-item {
   text-decoration: none;
   color: inherit;
-  margin-right: 104px;
+  margin-right: 5vh;
 }
 
 .logo-img {
-  margin-left: 66px;
+  margin-left: 10vh;
 }
 
-/* css from presentation */
+/* css from Hero */
 
-.presentation-container {
-  position: relative;
-}
-
-.presentation-img {
+.hero {
+  margin-top: 8vh;
   width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.retangle {
-  position: absolute;
-  left: 38%;
-  top: 0;
-  width: 100%;
+.hero-div {
+  clip-path: polygon(31% 0, 100% 0, 100% 100%, 0% 100%);
+  margin-left: auto;
+  width: 60%;
   height: 100%;
-}
-
-.presentation-text {
-  position: absolute;
-  top: 33%;
-  right: 8.5%;
+  background-color: rgba(16, 17, 16, 0.51);
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.presentation-title {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 52.73px;
-  margin-bottom: 30px;
+.hero-text {
+  margin-left: 15%;
 }
 
-.presentation-subtitle {
+.hero-title {
   font-weight: 700;
-  font-size: 35px;
+  /* font-size: 45px; */
+  font-size: 3vw;
+  margin-bottom: 6%;
+}
+
+.hero-subtitle {
+  font-weight: 700;
+  /* font-size: 35px; */
+  font-size: 2.3vw;
   line-height: 41.02px;
 }
 
@@ -73,6 +80,50 @@
   width: 100%;
   height: 16px;
   background-color: #C4C4C4;
-  position: absolute;
-  bottom: -12px;
+}
+
+/* css from AboutUs */
+
+.about-us {
+  width: 100%;
+  /* height: 594px; */
+  margin-top: 12px;
+}
+
+.about-us-title {
+  margin-top: 64px;
+  text-align: center;
+  font-weight: 500;
+  /* font-size: 45px; */
+  font-size: 3vw;
+}
+
+.about-us-div {
+  width: 159px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.539261);
+  margin: auto;
+  margin-top: 22px;
+}
+
+.about-us-paragraph {
+  /* width: 779px; */
+  width: 60%;
+  /* height: 282px; */
+  margin: auto;
+  text-align: center;
+  /* margin-top: 54px; */
+  margin-top: 8vh;
+  margin-bottom: 110px;
+  font-weight: 500;
+  /* font-size: 30px; */
+  font-size: 2.0vw;
+}
+
+/* css from Benefits */
+
+.benefits {
+  width: 100%;
+  height: 1092px;
+  border: 10px solid black;
 }

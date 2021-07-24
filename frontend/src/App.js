@@ -1,12 +1,16 @@
 import './App.css';
 import Header from './Components/Header';
-import Presentation from './Components/Presentation';
+import Hero from './Components/Hero';
+import AboutUs from './Components/AboutUs';
+import Benefits from './Components/Benefits';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Presentation />
+      <Hero />
+      <AboutUs />
+      <Benefits />
     </div>
   );
 }
