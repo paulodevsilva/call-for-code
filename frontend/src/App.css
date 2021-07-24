@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* css from header */
+
 
 .header {
   font-family: 'Roboto', sans-serif;
@@ -22,4 +28,51 @@
 
 .logo-img {
   margin-left: 66px;
+}
+
+/* css from presentation */
+
+.presentation-container {
+  position: relative;
+}
+
+.presentation-img {
+  width: 100%;
+}
+
+.retangle {
+  position: absolute;
+  left: 38%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.presentation-text {
+  position: absolute;
+  top: 33%;
+  right: 8.5%;
+  color: white;
+  text-align: center;
+}
+
+.presentation-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52.73px;
+  margin-bottom: 30px;
+}
+
+.presentation-subtitle {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41.02px;
+}
+
+.closing-bar {
+  width: 100%;
+  height: 16px;
+  background-color: #C4C4C4;
+  position: absolute;
+  bottom: -12px;
 }
