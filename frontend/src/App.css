@@ -28,12 +28,14 @@
 .header-a-home {
   text-decoration: none;
   color: inherit;
+  user-select: none;
 }
 
 .nav-item {
   text-decoration: none;
   color: inherit;
   margin-right: 5vh;
+  user-select: none;
 }
 
 .div-logo {
@@ -69,6 +71,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  user-select: none;
 }
 
 .hero-text {
@@ -110,6 +113,7 @@
   /* font-size: 45px; */
   font-size: 3vw;
   color: #190D49;
+  user-select: none;
 }
 
 .about-us-div {
@@ -137,7 +141,8 @@
 
 .benefits {
   width: 100%;
-  padding: 10vh 0vh;
+  padding-top: 10vh;
+  padding-bottom: 16vh;
 }
 
 .benefits-title {
@@ -145,6 +150,7 @@
   /* margin-top: 80px; */
   font-size: 3vw;
   color: #190D49;
+  user-select: none;
 }
 
 .benefits-items {
@@ -167,6 +173,7 @@
   font-size: 20px;
   color: #190D49;
   margin-top: 20px;
+  user-select: none;
 }
 
 .item-text {
@@ -202,6 +209,7 @@
   /* font-size: 60px; */
   font-size: 4vw;
   text-align: center;
+  user-select: none;
 }
 
 .join-us-subtitle-box {
@@ -209,6 +217,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  user-select: none;
 }
 
 .join-us-detail-subtitle {
@@ -259,6 +268,7 @@
   font-size: 2.4vw;
   text-align: center;
   margin-bottom: 13px;
+  user-select: none;
 }
 
 .farmers p {
@@ -308,6 +318,7 @@
   font-weight: 500;
   /* font-size: 45px; */
   font-size: 3vw;
+  user-select: none;
 }
 
 .team-cards {
@@ -359,6 +370,7 @@
 .footer p {
   font-weight: 700;
   font-size: 20px;
+  user-select: none;
 }
 
 /* css from app (general) */

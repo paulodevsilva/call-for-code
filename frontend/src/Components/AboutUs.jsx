@@ -7,12 +7,7 @@ class AboutUs extends React.Component {
         <h1 className="about-us-title">O QUE FAZEMOS</h1>
         <div className="about-us-div" />
         <p className="about-us-paragraph">
-          TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO
-          TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO
-          TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO
-          TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO
-          TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO
-          TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO
+          Utilizamos a tecnologia para integrar e engajar a sociedade no desenvolvimento de projetos de recuperação de áreas degradadas nas nascentes e matas ciliares com o objetivo de aumentar a disponibilidade de água.
         </p>
       </section>
     );
