@@ -38,6 +38,10 @@
   user-select: none;
 }
 
+.nav-item:hover {
+  background: #246F08;
+}
+
 .div-logo {
   display: flex;
 }
@@ -377,4 +381,24 @@
 
 .App {
   min-width: 818px;
+}
+
+.modal-background {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(10, 10, 10, 0.86);
+}
+
+.modal-card {
+  margin: 0 auto;
+  display: block;
+  margin-top: 250px;
+  max-width: 100%;
+  width: 450px;
+  height: 450px;
+  background-color: lightgray;
+  border-radius: 5px;
 }
