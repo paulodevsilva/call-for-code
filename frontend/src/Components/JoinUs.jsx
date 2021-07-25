@@ -1,7 +1,7 @@
 import React from 'react';
 
-class JoinUs extends React.Component {
-  render() {
+export default function JoinUs({history}) {
+  
     return (
       <section className="join-us-section" id="join">
         <div className="join-us-img" style={{ backgroundImage: "url(/Imgs/imageJoin.png)" }}>
@@ -37,6 +37,4 @@ class JoinUs extends React.Component {
       </section>
     );
   }
-}
 
-export default JoinUs;
