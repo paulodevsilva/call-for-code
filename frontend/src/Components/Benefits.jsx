@@ -5,13 +5,13 @@ import BenefitItem from './BenefitsItem';
 class Benefits extends React.Component {
   render() {
     return (
-      <section className="benefits">
+      <section className="benefits" id="benefits">
         <h1 className="benefits-title">BENEFÍCIOS</h1>
         <div className="benefits-items">
           {
             benefitsData.map((element) => {
               return (
-                <BenefitItem key={element.id} item={element} />
+                <BenefitItem key={ element.id } item={ element } />
               );
             })
           }

@@ -6,7 +6,7 @@ class Hero extends React.Component {
   render() {
     return (
       <section className="hero" style={{ backgroundImage: "url(/Imgs/imageHero.png)" }}>
-        <div className="hero-div">
+        <div className="hero-div" id="hero">
           <div className="hero-text">
             <h1 className="hero-title">FRASE DE EFEITO</h1>
             <p className="hero-subtitle">TEXTO TEXTO TEXTO TEXTO</p>

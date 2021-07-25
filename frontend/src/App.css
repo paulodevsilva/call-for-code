@@ -25,14 +25,26 @@
   justify-content: space-between;
 }
 
+.header-a-home {
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+}
+
 .nav-item {
   text-decoration: none;
   color: inherit;
   margin-right: 5vh;
+  user-select: none;
+}
+
+.div-logo {
+  display: flex;
 }
 
 .logo-img {
   margin-left: 10vh;
+  margin-right: 2vh;
 }
 
 /* css from Hero */
@@ -43,6 +55,9 @@
   height: 70vh;
   display: flex;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-div {
@@ -56,6 +71,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  user-select: none;
 }
 
 .hero-text {
@@ -87,15 +103,17 @@
 .about-us {
   width: 100%;
   /* height: 594px; */
-  margin-top: 12px;
+  padding: 10vh 0vh;
+  background-color: rgba(229, 229, 229, 0.38);;
 }
 
 .about-us-title {
-  margin-top: 64px;
   text-align: center;
   font-weight: 500;
   /* font-size: 45px; */
   font-size: 3vw;
+  color: #190D49;
+  user-select: none;
 }
 
 .about-us-div {
@@ -108,13 +126,12 @@
 
 .about-us-paragraph {
   /* width: 779px; */
-  width: 60%;
+  width: 50%;
   /* height: 282px; */
   margin: auto;
   text-align: center;
   /* margin-top: 54px; */
   margin-top: 8vh;
-  margin-bottom: 110px;
   font-weight: 500;
   /* font-size: 30px; */
   font-size: 2.0vw;
@@ -124,15 +141,16 @@
 
 .benefits {
   width: 100%;
-  height: 1092px;
-  border: 10px solid black;
+  padding-top: 10vh;
+  padding-bottom: 16vh;
 }
 
 .benefits-title {
   text-align: center;
-  margin-top: 80px;
-  /* margin-bottom: 100px; */
+  /* margin-top: 80px; */
   font-size: 3vw;
+  color: #190D49;
+  user-select: none;
 }
 
 .benefits-items {
@@ -144,6 +162,219 @@
 
 .benefit-item {
   text-align: center;
-  margin-right: 40px;
+  padding: 0px 30px;
   margin-top: 100px;
+  width: 250px;
+  height: 250px;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #190D49;
+  margin-top: 20px;
+  user-select: none;
+}
+
+.item-text {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/* css from JoinUs */
+
+.join-us-section {
+  display: flex;
+  flex-direction: column;
+  /* min-width: 818px; */
+}
+
+.join-us-img {
+  width: 100%;
+  height: 72vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+}
+
+.join-us-title {
+  margin-bottom: 10vh;
+  font-weight: 400;
+  /* font-size: 60px; */
+  font-size: 4vw;
+  text-align: center;
+  user-select: none;
+}
+
+.join-us-subtitle-box {
+  margin-bottom: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.join-us-detail-subtitle {
+  background-color: white;
+  width: 4px;
+  height: 102px;
+  margin-right: 40px;
+
+}
+
+.join-us-subtitle {
+  width: 621px;
+  /* font-size: 35px; */
+  font-size: 2.4vw;
+  font-weight: 700;
+  text-align: center;
+}
+
+.join-us-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 92px 0;
+  background-color: #e5e5e563;
+}
+
+.join-us-partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.farmers {
+  /* width: 300px; */
+  width: 38vh;
+  /* height: 400px; */
+  height: 54vh;
+  /* margin: 0 60px; */
+}
+
+.farmers h3 {
+  font-weight: 700;
+  /* font-size: 35px; */
+  font-size: 2.4vw;
+  text-align: center;
+  margin-bottom: 13px;
+  user-select: none;
+}
+
+.farmers p {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.farmers img {
+  /* width: 248px;
+  height: 246px;
+  border-radius: 40px;
+  background-color: #E5E5E5; */
+  display: block;
+  margin: auto;
+  width: 35vh;
+  height: 35vh;
+}
+
+.join-us-text {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.join-us-button {
+  width: 286px;
+  height: 50px;
+  background-color: #17E7F4;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0px;
+}
+
+/* css from team */
+
+.team-section {
+  padding-top: 73px;
+  padding-bottom: 50px;
+  /* min-width: 900px; */
+}
+
+.team-title {
+  text-align: center;
+  font-weight: 500;
+  /* font-size: 45px; */
+  font-size: 3vw;
+  user-select: none;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 76px;
+}
+
+.team-card {
+  text-align: center;
+}
+
+.team-card img {
+  margin-bottom: 40px;
+}
+
+.people {
+  /* height: 27vh; */
+  height: 14vw;
+}
+
+.team-card h3 {
+  margin-bottom: 19px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.team-card h4 {
+  margin-bottom: 19px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.team-card a {
+  padding: 0 8px;
+}
+
+/* css from footer */
+
+.footer {
+  width: 100%;
+  height: 51px;
+  background-color: rgba(196, 196, 196, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  font-weight: 700;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* css from app (general) */
+
+.App {
+  min-width: 818px;
 }
