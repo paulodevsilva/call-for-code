@@ -8,7 +8,7 @@ const benefitsData = [
   {
     id: 2,
     title: 'SUSTENTABILIDADE',
-    text: 'Alternativa ecologicamente correta e suprindo as necessidades das gerações atuais.',
+    text: 'Alternativa ecologicamente correta e garantia de recursos para gerações futuras.',
     path: './Icons/sustentabilidade.png',
   },
   {
@@ -20,7 +20,7 @@ const benefitsData = [
   {
     id: 4,
     title: 'MELHORES CONDIÇÕES CLIMÁTICAS',
-    text: 'Melhorias das condições climáticas. Mais árvores e florestas aumentam o volume de chuva e auxilia no bioma.',
+    text: 'Mais árvores e florestas aumentam o volume de chuva que são essenciais para as reservas de água doce.',
     path: './Icons/clima.png',
   },
   {
