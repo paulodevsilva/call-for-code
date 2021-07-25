@@ -11,7 +11,7 @@ class Benefits extends React.Component {
           {
             benefitsData.map((element) => {
               return (
-                <BenefitItem key={element.id} item={element} />
+                <BenefitItem key={ element.id } item={ element } />
               );
             })
           }
