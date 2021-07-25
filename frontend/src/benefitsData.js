@@ -8,7 +8,7 @@ const benefitsData = [
   {
     id: 2,
     title: 'SUSTENTABILIDADE',
-    text: 'Alternativa ecologicamente correta e suprindo as necessidades das gerações atuais.',
+    text: 'Alternativa ecologicamente correta e garantia de recursos para gerações futuras.',
     path: './Icons/sustentabilidade.png',
   },
   {
@@ -20,25 +20,25 @@ const benefitsData = [
   {
     id: 4,
     title: 'MELHORES CONDIÇÕES CLIMÁTICAS',
-    text: 'Melhorias das condições climáticas. Mais árvores e florestas aumentam o volume de chuva e auxilia no bioma.',
+    text: 'Mais árvores e florestas aumentam o volume de chuva que são essenciais para as reservas de água doce.',
     path: './Icons/clima.png',
   },
   {
     id: 5,
     title: 'MELHOR QUALIDADE DE VIDA',
-    text: 'Melhora a saúde. A água é de extrema importância para o corpo humano e saúde pública. Ajudando também a evitar a propagação de doenças.',
+    text: 'Melhora a saúde. A água é de extrema importância para a  saúde pública e ajuda  a evitar a propagação de doenças.',
     path: './Icons/vida.png',
   },
   {
     id: 6,
     title: 'ALIMENTOS MAIS ACESSÍVEIS',
-    text: 'Maior produção de alimentos. Fazendo com que tenha uma redução no preço dos alimentos.',
+    text: 'Maior produção de alimentos. Fazendo com que tenha uma redução no preço.',
     path: './Icons/comida.png'
   },
   {
     id: 7,
     title: 'VALORIZAÇÃO DO TERRENO',
-    text: 'Propriedades arborizadas e com recursos hídricos são extremamente valorizadas.',
+    text: 'Renda extra com créditos de carbono. Propriedades rurais mais valorizadas.',
     path: './Icons/terreno.png',
   },
 ]
