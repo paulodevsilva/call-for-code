@@ -170,6 +170,7 @@
 .join-us-section {
   display: flex;
   flex-direction: column;
+  /* min-width: 818px; */
 }
 
 .join-us-img {
@@ -188,7 +189,8 @@
 .join-us-title {
   margin-bottom: 10vh;
   font-weight: 400;
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: 4vw;
   text-align: center;
 }
 
@@ -209,7 +211,8 @@
 
 .join-us-subtitle {
   width: 621px;
-  font-size: 35px;
+  /* font-size: 35px; */
+  font-size: 2.4vw;
   font-weight: 700;
   text-align: center;
 }
@@ -228,17 +231,22 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 100px;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .farmers {
-  width: 300px;
-  height: 350px;
-  margin: 0 60px;
+  /* width: 300px; */
+  width: 38vh;
+  /* height: 400px; */
+  height: 54vh;
+  /* margin: 0 60px; */
 }
 
 .farmers h3 {
   font-weight: 700;
-  font-size: 35px;
+  /* font-size: 35px; */
+  font-size: 2.4vw;
   text-align: center;
   margin-bottom: 13px;
 }
@@ -257,6 +265,8 @@
   background-color: #E5E5E5; */
   display: block;
   margin: auto;
+  width: 35vh;
+  height: 35vh;
 }
 
 .join-us-text {
@@ -280,12 +290,14 @@
 .team-section {
   padding-top: 73px;
   padding-bottom: 50px;
+  /* min-width: 900px; */
 }
 
 .team-title {
   text-align: center;
   font-weight: 500;
-  font-size: 45px;
+  /* font-size: 45px; */
+  font-size: 3vw;
 }
 
 .team-cards {
@@ -300,6 +312,11 @@
 
 .team-card img {
   margin-bottom: 40px;
+}
+
+.people {
+  /* height: 27vh; */
+  height: 14vw;
 }
 
 .team-card h3 {
@@ -332,4 +349,10 @@
 .footer p {
   font-weight: 700;
   font-size: 20px;
+}
+
+/* css from app (general) */
+
+.App {
+  min-width: 818px;
 }
