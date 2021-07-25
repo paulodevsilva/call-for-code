@@ -15,17 +15,17 @@ class JoinUs extends React.Component {
           <div className="join-us-partners">
             <div className="farmers">
               <h3>FAZENDAS</h3>
-              <div />
+              <img src={"./Imgs/imgFarm.png"} alt="fazenda" />
               <p>Aumente sua renda disponibilizando uma parte do seu terreno</p>
             </div>
           <div className="farmers">
               <h3>INDÚSTRIAS</h3>
-              <div />
+              <img src={"./Imgs/imgIndustry.png"} alt="indústria" />
               <p>frase de efeito</p>
           </div>
           <div className="farmers">
               <h3>PARCEIROS</h3>
-              <div />
+              <img src={"./Imgs/imgPartner.png"} alt="parceiros" />
               <p>frase de efeito</p>
           </div>
           </div>

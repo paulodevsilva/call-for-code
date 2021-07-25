@@ -227,7 +227,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 .farmers {
@@ -250,11 +250,12 @@
   margin-top: 25px;
 }
 
-.farmers div {
-  width: 248px;
+.farmers img {
+  /* width: 248px;
   height: 246px;
   border-radius: 40px;
-  background-color: #E5E5E5;
+  background-color: #E5E5E5; */
+  display: block;
   margin: auto;
 }
 
@@ -272,4 +273,46 @@
   font-weight: 600;
   font-size: 20px;
   border: 0px;
+}
+
+/* css from team */
+
+.team-section {
+  padding: 73px 0;
+}
+
+.team-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 76px;
+}
+
+.team-card {
+  text-align: center;
+}
+
+.team-card img {
+  margin-bottom: 40px;
+}
+
+.team-card h3 {
+  margin-bottom: 19px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.team-card h4 {
+  margin-bottom: 19px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.team-card a {
+  padding: 0 8px;
 }

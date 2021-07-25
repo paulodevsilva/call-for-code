@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import AboutUs from './Components/AboutUs';
 import Benefits from './Components/Benefits';
 import JoinUs from './Components/JoinUs';
+import Team from './Components/Team';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs />
       <Benefits />
       <JoinUs />
+      <Team />
     </div>
   );
 }
