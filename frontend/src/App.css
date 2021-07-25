@@ -127,3 +127,23 @@
   height: 1092px;
   border: 10px solid black;
 }
+
+.benefits-title {
+  text-align: center;
+  margin-top: 80px;
+  /* margin-bottom: 100px; */
+  font-size: 3vw;
+}
+
+.benefits-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefit-item {
+  text-align: center;
+  margin-right: 40px;
+  margin-top: 100px;
+}
