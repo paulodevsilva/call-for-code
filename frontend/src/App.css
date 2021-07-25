@@ -278,7 +278,8 @@
 /* css from team */
 
 .team-section {
-  padding: 73px 0;
+  padding-top: 73px;
+  padding-bottom: 50px;
 }
 
 .team-title {
@@ -315,4 +316,20 @@
 
 .team-card a {
   padding: 0 8px;
+}
+
+/* css from footer */
+
+.footer {
+  width: 100%;
+  height: 51px;
+  background-color: rgba(196, 196, 196, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  font-weight: 700;
+  font-size: 20px;
 }

@@ -5,6 +5,7 @@ import AboutUs from './Components/AboutUs';
 import Benefits from './Components/Benefits';
 import JoinUs from './Components/JoinUs';
 import Team from './Components/Team';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Benefits />
       <JoinUs />
       <Team />
+      <Footer />
     </div>
   );
 }
