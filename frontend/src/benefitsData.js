@@ -26,19 +26,19 @@ const benefitsData = [
   {
     id: 5,
     title: 'MELHOR QUALIDADE DE VIDA',
-    text: 'Melhora a saúde. A água é de extrema importância para o corpo humano e saúde pública. Ajudando também a evitar a propagação de doenças.',
+    text: 'Melhora a saúde. A água é de extrema importância para a  saúde pública e ajuda  a evitar a propagação de doenças.',
     path: './Icons/vida.png',
   },
   {
     id: 6,
     title: 'ALIMENTOS MAIS ACESSÍVEIS',
-    text: 'Maior produção de alimentos. Fazendo com que tenha uma redução no preço dos alimentos.',
+    text: 'Maior produção de alimentos. Fazendo com que tenha uma redução no preço.',
     path: './Icons/comida.png'
   },
   {
     id: 7,
     title: 'VALORIZAÇÃO DO TERRENO',
-    text: 'Propriedades arborizadas e com recursos hídricos são extremamente valorizadas.',
+    text: 'Renda extra com créditos de carbono. Propriedades rurais mais valorizadas.',
     path: './Icons/terreno.png',
   },
 ]

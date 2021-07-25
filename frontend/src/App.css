@@ -29,6 +29,7 @@
   text-decoration: none;
   color: inherit;
   user-select: none;
+  display: flex;
 }
 
 .nav-item {
@@ -44,6 +45,7 @@
 
 .div-logo {
   display: flex;
+  align-items: center;
 }
 
 .logo-img {
@@ -146,13 +148,14 @@
 .benefits {
   width: 100%;
   padding-top: 10vh;
-  padding-bottom: 16vh;
+  padding-bottom: 0vh;
 }
 
 .benefits-title {
   text-align: center;
   /* margin-top: 80px; */
   font-size: 3vw;
+  margin-bottom: 8vh;
   color: #190D49;
   user-select: none;
 }
@@ -166,10 +169,11 @@
 
 .benefit-item {
   text-align: center;
-  padding: 0px 30px;
-  margin-top: 100px;
-  width: 250px;
-  height: 250px;
+  /* padding: 0px 50px; */
+  /* margin-top: 100px; */
+  margin: 10px 5vh;
+  width: 35vh;
+  height: 48vh;
 }
 
 .item-title {
@@ -268,8 +272,8 @@
 
 .farmers h3 {
   font-weight: 700;
-  /* font-size: 35px; */
-  font-size: 2.4vw;
+  font-size: 35px;
+  /* font-size: 2.4vw; */
   text-align: center;
   margin-bottom: 13px;
   user-select: none;
@@ -277,7 +281,7 @@
 
 .farmers p {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   margin-top: 25px;
 }
@@ -295,7 +299,7 @@
 
 .join-us-text {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 60px;
 }
 
