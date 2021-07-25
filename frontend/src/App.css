@@ -25,14 +25,24 @@
   justify-content: space-between;
 }
 
+.header-a-home {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-item {
   text-decoration: none;
   color: inherit;
   margin-right: 5vh;
 }
 
+.div-logo {
+  display: flex;
+}
+
 .logo-img {
   margin-left: 10vh;
+  margin-right: 2vh;
 }
 
 /* css from Hero */

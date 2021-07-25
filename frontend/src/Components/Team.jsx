@@ -5,7 +5,7 @@ import TeamItem from './TeamItem';
 class Team extends React.Component {
   render() {
     return (
-      <section className="team-section">
+      <section className="team-section" id="team">
         <h1 className="team-title">NOSSO TIME</h1>
         <div className="team-cards">
           {

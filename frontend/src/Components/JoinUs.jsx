@@ -3,7 +3,7 @@ import React from 'react';
 class JoinUs extends React.Component {
   render() {
     return (
-      <section className="join-us-section">
+      <section className="join-us-section" id="join">
         <div className="join-us-img" style={{ backgroundImage: "url(/Imgs/imageJoin.png)" }}>
           <h1 className="join-us-title">Junte-se a nós</h1>
           <div className="join-us-subtitle-box">
@@ -14,7 +14,7 @@ class JoinUs extends React.Component {
         <div className="join-us-body">
           <div className="join-us-partners">
             <div className="farmers">
-              <h3>FAZENDAS</h3>
+              <h3>ÁREAS RURAIS</h3>
               <img src={"./Imgs/imgFarm.png"} alt="fazenda" />
               <p>Aumente sua renda disponibilizando uma parte do seu terreno</p>
             </div>
