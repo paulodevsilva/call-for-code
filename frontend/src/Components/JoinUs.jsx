@@ -24,7 +24,7 @@ export default function JoinUs(props) {
           <div className="farmers">
               <h3>INDÚSTRIAS</h3>
               <img src={"./Imgs/imgIndustry.png"} alt="indústria" />
-              <p>Aumente a valorização da sua propriedade.</p>
+              <p>Faça a compensação de créditos de carbobo e ajude o meio ambiente.</p>
           </div>
           <div className="farmers">
               <h3>PARCEIROS</h3>
@@ -33,7 +33,7 @@ export default function JoinUs(props) {
           </div>
           </div>
           <div className="join-us-text">
-            frase de efeito xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+           Com você, somos mais fortes!  Contribua para um planeta melhor
           </div>
           <button className="join-us-button" onClick={handleNavigate}>Junte-se a nós</button>
         </div>
