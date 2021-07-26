@@ -1,7 +1,10 @@
 import React from 'react';
 
-export default function JoinUs({history}) {
-  
+export default function JoinUs(props) {
+  const {navigate} = props;
+  const handleNavigate = (event) => {
+    navigate.push('/signup')
+  }
     return (
       <section className="join-us-section" id="join">
         <div className="join-us-img" style={{ backgroundImage: "url(/Imgs/imageJoin.png)" }}>
@@ -32,7 +35,7 @@ export default function JoinUs({history}) {
           <div className="join-us-text">
             frase de efeito xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           </div>
-          <button className="join-us-button">Junte-se a nós</button>
+          <button className="join-us-button" onClick={handleNavigate}>Junte-se a nós</button>
         </div>
       </section>
     );

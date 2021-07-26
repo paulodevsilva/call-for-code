@@ -9,11 +9,11 @@ html, body, #root {
   min-height: 100%;
 }
 
-body {
+/* body {
   background: #fff url('../../assets/bg.png') no-repeat;
   background-size:cover ;
   -webkit-font-smoothing: antialiased !important;
-}
+} */
 
 .container-dashboard {
   margin: 80px auto 0;

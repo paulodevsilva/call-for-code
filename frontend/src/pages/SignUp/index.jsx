@@ -1,7 +1,4 @@
 import { useState } from 'react';
-import { FontAwesomeIcon } from  '@fortawesome/react-fontawesome';
-import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons'
-
 import Header from  '../../Components/HeaderDashboard';
 
 import api from  '../../services/api';
@@ -17,10 +14,11 @@ function SignUp({ history }) {
 
   async function handleSubmit(event) {
     event.preventDefault();
+    console.log({history})
 
-    const user = await api.post('/api/users', { name, email, password, perfil: '2'});
+    // const user = await api.post('/api/users', { name, email, password, perfil: '2'});
 
-    console.log({user});
+    // console.log({user});
 
     history.push('/dashboard')
   }
@@ -30,6 +28,8 @@ function SignUp({ history }) {
      <Header/>
       <div className="container">
        <div className="content">
+       <h1>Cadastre-se</h1>
+         
        <form onSubmit={handleSubmit}>
           <label htmlFor="name">Nome *</label>
           <input

@@ -7,14 +7,14 @@ import JoinUs from '../../Components/JoinUs';
 import Team from '../../Components/Team';
 import Footer from '../../Components/Footer';
 
-export default function Home() {
+export default function Home({ history }) {
   return (
       <>
       <Header />
       <Hero />
       <AboutUs />
       <Benefits />
-      <JoinUs />
+      <JoinUs navigate={history}/>
       <Team />
       <Footer />
       </>
