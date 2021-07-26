@@ -24,7 +24,7 @@ export default function JoinUs(props) {
           <div className="farmers">
               <h3>INDÚSTRIAS</h3>
               <img src={"./Imgs/imgIndustry.png"} alt="indústria" />
-              <p>Faça a compensação de créditos de carbobo e ajude o meio ambiente.</p>
+              <p>Faça a compensação de créditos de carbono e ajude o meio ambiente.</p>
           </div>
           <div className="farmers">
               <h3>PARCEIROS</h3>
